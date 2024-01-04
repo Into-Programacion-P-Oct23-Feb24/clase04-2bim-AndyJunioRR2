@@ -24,11 +24,8 @@ public class Ejemplo041 {
 
             }
         }
-        System.out.println("Arreglo 1:");
         resultado(arreglo1);
-        System.out.println("Arreglo 2:");
         resultado(arreglo2);
-        System.out.println("Arreglo resultado:");
         resultado(arreglo3);
     }
 
