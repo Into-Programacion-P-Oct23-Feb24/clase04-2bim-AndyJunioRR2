@@ -24,6 +24,7 @@ public class Ejemplo041 {
 
             }
         }
+        
         resultado(arreglo1);
         resultado(arreglo2);
         resultado(arreglo3);
