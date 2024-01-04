@@ -9,22 +9,24 @@ package ejemplos01;
  *
  * @author reroes
  */
-public class Ejemplo08 {
+public class Ejemplo081 {
 
     public static void main(String[] args) {
         // 
         String mensajeSuma;
         String mensajeSumaDos;
-        mensajeSuma = obtenerTablaSumar(10, 9); // se invoca al método 
+        for (int i = 1; i < 10; i++){
+        mensajeSuma = obtenerTablaSumar(10, i); // se invoca al método 
                                                        // obtenerTablaSumar
                                                        // y el valor que 
                                                        // devuelve se lo 
                                                        // almacena  en mensajeSuma
         
-        mensajeSumaDos = obtenerTablaMultiplicar(10, 9);
+        mensajeSumaDos = obtenerTablaMultiplicar(10, i);
         
         System.out.printf("%s\n", mensajeSuma);
         System.out.printf("%s\n", mensajeSumaDos);
+         }
     }
         
     public static String obtenerTablaSumar(int limite, int tabla){
